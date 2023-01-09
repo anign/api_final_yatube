@@ -1,4 +1,4 @@
-### API для Yatube.
+# API для Yatube.
 
 ### Как запустить проект:
 
@@ -59,3 +59,11 @@ python3 manage.py runserver
 Получение публикации по id:
 
 ```api/v1/posts/{id}/```
+
+Получить JWT-токен:
+
+```POST api/v1/jwt/create/```
+
+Проверить JWT-токен:
+
+```POST api/v1/jwt/verify/```
